@@ -1,0 +1,101 @@
+﻿body {
+    margin: 0;
+    background-color: #292b2c;
+}
+
+#loader {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 25px);
+}
+
+
+
+.spinner {
+    margin: 0 auto 0;
+    width: 70px;
+    text-align: center;
+}
+
+.spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0)
+    }
+
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+.highlighted-link a {
+    border-bottom: 2px solid white;
+}
+
+.mobile-carousel {
+    padding: 30px 10px 50px !important;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+@keyframes horizontalScroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0);
+        opacity: 1
+    }
+
+    100% {
+        transform: translateX(15px);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,395 @@
+{
+  "owner": {
+    "name": "Abdulrahman Alhamoudi",
+    "email": "me@aalhamoudi.com",
+    "about": "An incredibly passionate software engineer with a diverse skill set; well-suited for many positions, and particularly suited for positions with diverse responsibilities."
+  },
+  "educationTimepoints": [
+    {
+      "id": 1,
+      "time": "2013-2017",
+      "title": "BASc in Software Engineering",
+      "description": "Bachelor of Applied Science in Software Engineering degree from the University of Ottawa",
+      "icon": "fa-institution"
+    }
+  ],
+  "experienceTimepoints": [
+    {
+      "id": 1,
+      "time": "2007-2017",
+      "title": "Projects",
+      "description": "I have worked on a multitude of projects utilizing many different technologies",
+      "icon": "fa-folder"
+    },
+    {
+      "id": 2,
+      "time": "2007-2017",
+      "title": "Experimentation",
+      "description": "I have experimented with even more technologies",
+      "icon": "fa-folder"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "image": "fa-file-text",
+      "title": "Programming Languages",
+      "description": "C#, Java, Javascript/Typescript, C/C++, and PHP"
+    },
+    {
+      "id": 2,
+      "image": "fa-chrome",
+      "title": "Front-End Web Development",
+      "description": "Front-end web development in HTML5/CSS3, Bootstrap, jQuery, React, Redux, RxJS, and Razor"
+    },
+    {
+      "id": 3,
+      "image": "fa-server",
+      "title": "Back-End Web Development",
+      "description": "Back-end web development in ASP.Net Core/4, Node/Express, and PHP"
+    },
+    {
+      "id": 4,
+      "image": "fa-mobile",
+      "title": "Mobile Development",
+      "description": "Mobile development in Xamarin.Forms, and React Native"
+    },
+    {
+      "id": 5,
+      "image": "fa-desktop",
+      "title": "Desktop Development",
+      "description": "Cross-platform desktop development in JavaFX, and Electron"
+    },
+    {
+      "id": 6,
+      "image": "fa-microchip",
+      "title": "Embedded Development",
+      "description": "Embedded development with Arduino"
+    },
+    {
+      "id": 7,
+      "image": "fa-database",
+      "title": "Databases",
+      "description": "MS SQL, PostgreSQL, SQLite, and MongoDB"
+    },
+    {
+      "id": 8,
+      "image": "fa-cloud",
+      "title": "Cloud Platforms",
+      "description": "Microsoft Azure, and Amazon AWS"
+    },
+    {
+      "id": 9,
+      "image": "fa-terminal",
+      "title": "IDEs",
+      "description": "Visual Studio, IntelliJ IDEA, and Eclipse"
+    },
+    {
+      "id": 10,
+      "image": "fa-circle-o-notch",
+      "title": "Scrum & DevOps",
+      "description": "Using Visual Studio Team Services & Visual Studio Mobile Center"
+    },
+    {
+      "id": 11,
+      "image": "fa-code-fork",
+      "title": "Source Control",
+      "description": "Git (Github, Bitbucket, and VS Team Services)"
+    },
+    {
+      "id": 12,
+      "image": "fa-bug",
+      "title": "Testing",
+      "description": "NUnit/JUnit, Jest, and UITest"
+    },
+    {
+      "id": 13,
+      "image": "fa-apple",
+      "title": "Operating Systems",
+      "description": "Windows, macOS, and Linux/FreeBSD"
+    },
+    {
+      "id": 14,
+      "image": "fa-gears",
+      "title": "Containers",
+      "description": "Docker & Kubernetes"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Portfoliofy",
+      "description": "Portfolio web application",
+      "link": "aalhamoudi.me",
+      "features": [
+        {
+          "id": 100,
+          "title": "Modern and unique app-inspired design"
+        },
+        {
+          "id": 101,
+          "title": "Mobile-friendly responsive design"
+        },
+        {
+          "id": 102,
+          "title": "Serverless Architecture"
+        },
+        {
+          "id": 103,
+          "title": "JSON data file"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 100,
+          "title": "C# & Typescript"
+        },
+        {
+          "id": 101,
+          "title": "React (inc. React-Router)"
+        },
+        {
+          "id": 102,
+          "title": "Bootstrap 4"
+        },
+        {
+          "id": 103,
+          "title": "Animate.css"
+        },
+        {
+          "id": 104,
+          "title": "Webpack"
+        },
+        {
+          "id": 105,
+          "title": "Amazon AWS S3/Route 53"
+        },
+        {
+          "id": 106,
+          "title": "Visual Studio Team Services"
+        }
+      ],
+      "images": [
+        {
+          "id": 100,
+          "path": "/images/screenshots/portfoliofy/portfoliofy1.png"
+        },
+        {
+          "id": 101,
+          "path": "/images/screenshots/portfoliofy/portfoliofy2.png"
+        },
+        {
+          "id": 102,
+          "path": "/images/screenshots/portfoliofy/portfoliofy3.png"
+        },
+        {
+          "id": 103,
+          "path": "/images/screenshots/portfoliofy/portfoliofy4.png"
+        },
+        {
+          "id": 104,
+          "path": "/images/screenshots/portfoliofy/portfoliofy5.png"
+        },
+        {
+          "id": 105,
+          "path": "/images/screenshots/portfoliofy/portfoliofy6.png"
+        },
+        {
+          "id": 106,
+          "path": "/images/screenshots/portfoliofy/portfoliofy7.png"
+        },
+        {
+          "id": 107,
+          "path": "/images/screenshots/portfoliofy/portfoliofy8.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Agilify",
+      "description": "Scrum software project management mobile application",
+      "link": "https://play.google.com/store/apps/details?id=net.Infinitivity.Agilify",
+      "features": [
+        {
+          "id": 200,
+          "title": "Elegant UI"
+        },
+        {
+          "id": 201,
+          "title": "Offline sync"
+        },
+        {
+          "id": 202,
+          "title": "Social login"
+        },
+        {
+          "id": 203,
+          "title": "Collaboration"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 200,
+          "title": "Xamarin.Forms"
+        },
+        {
+          "id": 201,
+          "title": "Xamarin.Android & Xamarin.iOS"
+        },
+        {
+          "id": 202,
+          "title": "ASP.Net 4"
+        },
+        {
+          "id": 203,
+          "title": "Microsoft SQL Server"
+        },
+        {
+          "id": 204,
+          "title": "Entity Framework"
+        },
+        {
+          "id": 205,
+          "title": "Microsoft Azure Mobile Service SDK"
+        },
+        {
+          "id": 206,
+          "title": "Microsoft Azure"
+        },
+        {
+          "id": 207,
+          "title": "Visual Studio Team Services"
+        },
+        {
+          "id": 208,
+          "title": "Visual Studio Mobile Center"
+        }
+      ],
+      "images": [
+        {
+          "id": 200,
+          "path": "/images/screenshots/agilify/agilify1.jpg"
+        },
+        {
+          "id": 201,
+          "path": "/images/screenshots/agilify/agilify2.jpg"
+        },
+        {
+          "id": 202,
+          "path": "/images/screenshots/agilify/agilify3.jpg"
+        },
+        {
+          "id": 203,
+          "path": "/images/screenshots/agilify/agilify4.jpg"
+        },
+        {
+          "id": 204,
+          "path": "/images/screenshots/agilify/agilify5.jpg"
+        },
+        {
+          "id": 205,
+          "path": "/images/screenshots/agilify/agilify6.jpg"
+        },
+        {
+          "id": 206,
+          "path": "/images/screenshots/agilify/agilify7.jpg"
+        },
+        {
+          "id": 207,
+          "path": "/images/screenshots/agilify/agilify8.jpg"
+        },
+        {
+          "id": 208,
+          "path": "/images/screenshots/agilify/agilify9.jpg"
+        },
+        {
+          "id": 209,
+          "path": "/images/screenshots/agilify/agilify10.jpg"
+        },
+        {
+          "id": 210,
+          "path": "/images/screenshots/agilify/agilify11.jpg"
+        },
+        {
+          "id": 211,
+          "path": "/images/screenshots/agilify/agilify12.jpg"
+        },
+        {
+          "id": 212,
+          "path": "/images/screenshots/agilify/agilify13.jpg"
+        },
+        {
+          "id": 213,
+          "path": "/images/screenshots/agilify/agilify14.jpg"
+        },
+        {
+          "id": 214,
+          "path": "/images/screenshots/agilify/agilify15.jpg"
+        },
+        {
+          "id": 215,
+          "path": "/images/screenshots/agilify/agilify16.jpg"
+        },
+        {
+          "id": 216,
+          "path": "/images/screenshots/agilify/agilify17.jpg"
+        },
+        {
+          "id": 217,
+          "path": "/images/screenshots/agilify/agilify18.jpg"
+        },
+        {
+          "id": 2118,
+          "path": "/images/screenshots/agilify/agilify19.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cabinet Medical",
+      "description": "A web application for managing medical clinics (School Project)",
+      "link": "http:///104.236.100.27",
+      "features": [
+        {
+          "id": 300,
+          "title": "Modern responsive design"
+        },
+        {
+          "id": 301,
+          "title": "Manually configured and managed Ubuntu instance"
+        }
+      ],
+      "technologies": [
+        {
+          "id": 300,
+          "title": "PHP"
+        },
+        {
+          "id": 301,
+          "title": "HTML5/CSS3"
+        },
+        {
+          "id": 302,
+          "title": "Bootstrap"
+        },
+        {
+          "id": 303,
+          "title": "PostgreSQL"
+        },
+        {
+          "id": 304,
+          "title": "Ubuntu"
+        },
+        {
+          "id": 305,
+          "title": "Apache 2"
+        },
+        {
+          "id": 306,
+          "title": "DigitalOcean"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
